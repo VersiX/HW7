@@ -32,7 +32,11 @@ h1{
 .header_text{
     color: #A0A0A0;
     font-size: 13px;
+    width: 520px;
+    max-width: 100%;
     margin-bottom: 108px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .col_container{
@@ -63,8 +67,15 @@ svg{
     margin-bottom: 35px;
 }
 
+.description{
+    font-size: 11px;
+    color: #888888;
+}
 .col:hover{
-    background-color: #0EC8CB;
+    background-color: #0EC8CB;   
+}
+
+.col:hover *{
     color: white;
 }
 
@@ -74,8 +85,4 @@ svg{
 
 h2{
     font-size: 18px;
-}
-.description{
-    font-size: 11px;
-    color: #888888;
 }
